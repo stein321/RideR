@@ -2,7 +2,7 @@ var login = (function() {
 
 	$(document).ready(function() {
 		$("#eventsSubmit").click(function() {
-			window.location = "/rides.html"
+			window.location = "/RideR/webapp/rides.html"
 		});
 	})
 }());
