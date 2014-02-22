@@ -17,8 +17,9 @@
     <![endif]-->
   </head>
   <body>
-    <h1>Select Home Neighborhood</h1>
-    <form >
+
+  <button>Need Ride </button>  
+  <button>Give Ride</button>
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
