@@ -1,14 +1,11 @@
 var login = (function() {
-
-	$(document).on("facebook:init", function() {
-		alert(FB.getAccessToken());
-	})
-
 	$(document).ready(function() {
 		$("#facebookLoginButton").click(function() {
+						alert(FB.getAccessToken());
 			window.location = "location.html";
 		});
 
+		alert(FB.getAccessToken());
 	});
 
 }());
