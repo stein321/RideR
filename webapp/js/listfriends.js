@@ -18,7 +18,7 @@ var listfriends = (function() {
 			div.append(nameElem);
 			div.append(mutualFriendElem);
 
-			$("#riderSuggestionContainer").append(div);
+			$("#riderSuggestions").append(div);
 		}
 	}
 
