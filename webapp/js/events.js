@@ -6,7 +6,11 @@ var login = (function() {
 		});
 
 		$("#fb-root").on("facebook:init", function() {
-			FB.api('/me/events/attending?since=now', function(response) {
+			FB.api('/me/events/attending?since=now',
+			{
+				accessToken: FB.getAuthResponse().accessToken
+			},
+			function(response) {
 		  		console.log(response);
 			});
 		})

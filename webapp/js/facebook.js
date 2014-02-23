@@ -22,7 +22,7 @@ var facebook = (function() {
 					// The response object is returned with a status field that lets the app know the current
 					// login status of the person. In this case, we're handling the situation where they 
 					// have logged in to the app.
-					window.location = "/RideR/webapp/location.html"
+					$("#fb-root").trigger("facebook:user:connected");
 				} else if (response.status === 'not_authorized') {
 					// In this case, the person is logged into Facebook, but not into the app, so we call
 					// FB.login() to prompt them to do so. 
