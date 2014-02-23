@@ -9,7 +9,7 @@
       // console.log(response);
       $.ajax({
 
-          url: "/54.201.249.47/RideRServer/",
+          url: "http://54.201.249.47/RideRServer/",
           type: "GET",
           data: response,
           context: document.body,
