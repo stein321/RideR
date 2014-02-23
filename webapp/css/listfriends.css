@@ -1,0 +1,25 @@
+﻿.listFriends {
+    float:left;
+    border:1px solid black;
+}
+
+.divRow
+    {
+       display:table-row;
+       width:auto;
+
+    }
+
+.divCell
+    {
+        float:left;/*fix for  buggy browsers*/
+        display:table-column;
+        width:200px;
+        background-color:#ccc;
+
+    }
+
+.divInRow {
+        float:left;/*fix for  buggy browsers*/
+        display:table-column;
+}
