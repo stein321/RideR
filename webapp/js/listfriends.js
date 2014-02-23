@@ -8,10 +8,16 @@ var listfriends = (function() {
 			var div = $('<div/>', {
 				'class':'divRow'
 			});
+
 			var nameSpan = $('<span/>')
 			nameSpan.html(rider.name);
 
-			div.html(nameSpan);
+			var mutualFriendSpan = $('<span/>');
+			mutualFriendSpan.html(rider.mutual_friend_count);
+
+			div.append(nameSpan);
+			div.append(mutualFriendSpan);
+
 			$("#riderSuggestionContainer").append(div);
 		}
 	}
