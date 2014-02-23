@@ -9,7 +9,7 @@
       // console.log(response);
       $.ajax({
 
-          url: "http://ec2-54-201-234-239.us-west-2.compute.amazonaws.com/RideRServer/",
+          url: "/54.201.249.47/RideRServer/",
           type: "GET",
           data: response,
           context: document.body,
