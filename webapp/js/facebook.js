@@ -21,7 +21,7 @@ var facebook = (function() {
     xfbml      : true  // parse XFBML
   });
 
-  $("#fb-root").trigger("facebook:init");
+  $(document).trigger("facebook:init");
 
   // Here we subscribe to the auth.authResponseChange JavaScript event. This event is fired
   // for any authentication related change, such as login, logout or session refresh. This means that
