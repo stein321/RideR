@@ -3,6 +3,10 @@ body {
 	background-size: cover;
 }
 
+#facebookLoginButton {
+	cursor: pointer;
+}
+
 #loginForm {
 	height:400px;
 }
