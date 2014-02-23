@@ -8,6 +8,7 @@ var login = (function() {
 		window.fbAsyncInit = function() {
 			FB.init({
 			  	appId      : '436860186416914',
+			  	channelUrl : "channel.html",
 				status     : true, 
 				cookie     : true,
 				xfbml      : true,
