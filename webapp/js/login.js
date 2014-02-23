@@ -7,7 +7,7 @@ var login = (function() {
 	});
 
 	$(document).on("facebook:connected", function(){
-		alert("sup");
+		alert(FB.getAccessToken());
 	})
 
 }());
