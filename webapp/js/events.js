@@ -5,7 +5,7 @@ var login = (function() {
 			window.location = "/RideR/webapp/rides.html"
 		});
 
-		$("#fb-root").on("facebook:init", function() {
+		$("#fb-root").on("facebook:user:connected", function() {
 			FB.api('/me/events/attending?since=now',
 			{
 				accessToken: FB.getAuthResponse().accessToken
