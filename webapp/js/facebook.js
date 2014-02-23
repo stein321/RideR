@@ -1,17 +1,6 @@
 var facebook = (function() {
 	$(document).ready(function() {
 		window.fbAsyncInit = function() {
-			FB.init({
-			  	appId      : '436860186416914',
-			  	channelUrl : "channel.html",
-				status     : true, 
-				cookie     : true,
-				xfbml      : true,
-				oauth      : true,
-			});
-
-			$("#fb-root").trigger("facebook:init");
-
 			// Here we subscribe to the auth.authResponseChange JavaScript event. This event is fired
 			// for any authentication related change, such as login, logout or session refresh. This means that
 			// whenever someone who was previously logged out tries to log in again, the correct case below 
@@ -41,6 +30,17 @@ var facebook = (function() {
 					FB.login();
 				}
 			});
+
+			FB.init({
+			  	appId      : '436860186416914',
+			  	channelUrl : "channel.html",
+				status     : true, 
+				cookie     : true,
+				xfbml      : true,
+				oauth      : true,
+			});
+
+			$("#fb-root").trigger("facebook:init");
 		};
 
 		// Here we run a very simple test of the Graph API after login is successful. 
