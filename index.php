@@ -6,7 +6,7 @@
 <script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
 <script>
   function sendResponseToServer(response) {
-      console.log(response);
+      // console.log(response);
       $.ajax({
 
           url: "http://ec2-54-201-234-239.us-west-2.compute.amazonaws.com/RideRServer/",
@@ -18,7 +18,6 @@
   }
   function displayShit(data) {
       console.log(data);
-      console.log("boom");
   }
   function fail() {
     console.log("uh oh");
