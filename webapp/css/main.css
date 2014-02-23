@@ -25,6 +25,10 @@ body {
 	margin:.1em;
 }
 
+#eventsForm button {
+	font-family: Novecentosanswide-Light;
+}
+
 #locationForm input {
 	font-size:3em;
 	border-radius:.3em;
