@@ -25,10 +25,10 @@ body {
 	margin:.1em;
 }
 
-#zipcodeInput {
-	line-height:4em;
-	border-radius:1em;
-	width:35em;
+#locationForm input {
+	font-size:3em;
+	border-radius:.3em;
+	font-family: Novecentosanswide-Light;
 }
 
 #eventsForm, #ridesForm {
