@@ -1,29 +1,25 @@
-﻿.listFriends {
+﻿body {
+    background-image:url("http://blondeonabudget.ca/wp-content/uploads/2012/02/roadtrip.jpeg");
+    background-size: cover;
+}
+
+.listFriends {
     float:left;
     border:1px solid black;
 }
 
-.divRow
-    {
-       display:table-row;
-       width:auto;
-       border: 1px solid black;
+#riderSuggestionContainer {
+    width:300px;
+    height:400px;
+}
 
-    }
+.divRow{
+    background-color:#A8444F;
+    border-radius:.4em;
+    margin:1em;
+    cursor:pointer;
+}
 
-.divCell
-    {
-        float:left;/*fix for  buggy browsers*/
-        display:table-column;
-        width:200px;
-        /*background-color:#ccc;*/
-
-    }
-
-.divInRow 
-    {
-        float:left;/*fix for  buggy browsers*/
-        display:table-column;
-        padding:5px;
-        vertical-align:middle;
-    }
+.divRow.selected {
+    background-color:#EA5B65;
+}

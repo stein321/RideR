@@ -5,6 +5,10 @@
   text-align:center;
 }
 
+.hidden {
+	display:none;
+}
+
 body {
 	font-family: Novecentosanswide-Light;
 	color: white;
