@@ -34,6 +34,7 @@ var facebook = (function() {
       // login status of the person. In this case, we're handling the situation where they 
       // have logged in to the app.
       testAPI();
+      $(document).trigger("facebook:connected");
     } else if (response.status === 'not_authorized') {
       // In this case, the person is logged into Facebook, but not into the app, so we call
       // FB.login() to prompt them to do so. 

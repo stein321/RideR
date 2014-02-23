@@ -4,8 +4,10 @@ var login = (function() {
 						alert(FB.getAccessToken());
 			window.location = "location.html";
 		});
-
-		alert(FB.getAccessToken());
 	});
+
+	$(document).on("facebook:connected", function(){
+		alert("sup");
+	})
 
 }());
