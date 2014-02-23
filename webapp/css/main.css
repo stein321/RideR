@@ -20,7 +20,7 @@ body {
 	height:166px;
 } 
 
-#locationForm p {
+#locationForm p, #eventsForm p{
 	font-size:3em;
 	margin:.1em;
 }
