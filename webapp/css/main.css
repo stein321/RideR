@@ -20,6 +20,11 @@ body {
 	height:166px;
 } 
 
+#locationForm p {
+	font-size:3em;
+	margin:.1em;
+}
+
 #zipcodeInput {
 	line-height:4em;
 	border-radius:1em;
