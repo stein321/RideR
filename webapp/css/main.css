@@ -11,7 +11,13 @@
 	background-image:url("/RideR/webapp/images/front_page.jpg");
 }
 
-#locationForm, #eventsForm, #ridesForm {
+#locationForm {
+	height:333px;
+	width: 500px;
+	background-image:url("/RideR/webapp/images/stock.jpg");
+}
+
+#eventsForm, #ridesForm {
 	height: 200px;
 	width: 300px;
 }
