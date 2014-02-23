@@ -1,7 +1,7 @@
 var login = (function() {
 
 	$(document).on("facebook:init", function() {
-		alert("INIT");
+		alert(FB.getAccessToken());
 	})
 
 	$(document).ready(function() {
