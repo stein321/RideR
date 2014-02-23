@@ -34,7 +34,7 @@ var listfriends = (function() {
 			window.location = "rides.html";
 		});
 
-		$(".divRow").click(function() {
+		$("#riderSuggestions").on("click", ".divRow", function() {
 			$(this).toggleClass("selected");
 		});
 	})
