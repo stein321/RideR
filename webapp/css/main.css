@@ -15,6 +15,7 @@
 	height:333px;
 	width: 500px;
 	background-image:url("/RideR/webapp/images/stock.jpg");
+	background-position:center;
 }
 
 #eventsForm, #ridesForm {
