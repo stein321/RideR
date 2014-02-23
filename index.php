@@ -6,9 +6,7 @@
 <script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
 <script>
   function sendResponseToServer(response) {
-      // console.log(response);
       $.ajax({
-
           url: "http://54.201.249.47/RideRServer/",
           type: "GET",
           data: response,
@@ -17,7 +15,6 @@
         });
   }
   function displayShit(data) {
-      console.log("should print");
       console.log(data);
   }
 
