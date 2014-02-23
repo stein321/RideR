@@ -14,12 +14,6 @@ body {
 	background-image:url("/RideR/webapp/images/front_page.jpg");
 }
 
-#locationContainer {
-	height:333px;
-	width: 500px;
-	background-image:url("http://blondeonabudget.ca/wp-content/uploads/2012/02/roadtrip.jpeg");
-}
-
 #locationForm {
 	height:166px;
 } 
