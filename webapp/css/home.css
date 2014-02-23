@@ -3,6 +3,10 @@ body {
 	background-size: cover;
 }
 
+#loginForm {
+	height:400px;
+}
+
 #appTitle {
 	font-size:12em;
 	margin:0;
