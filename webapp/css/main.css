@@ -7,4 +7,5 @@
 
 #loginForm, #locationForm, #eventsForm, #ridesForm {
 	height: 200px;
+	background-image:url(http://www.newyorker.com/online/blogs/photobooth/NASAEarth-01.jpg);
 }
