@@ -5,8 +5,10 @@ var login = (function() {
 			window.location = "/RideR/webapp/rides.html"
 		});
 
-		FB.api('/me/events/attending?since=now', function(response) {
-		  console.log(response);
-		});
+		$("#fb-root").on("facebook:init", function() {
+			FB.api('/me/events/attending?since=now', function(response) {
+		  		console.log(response);
+			});
+		})
 	})
 }());
