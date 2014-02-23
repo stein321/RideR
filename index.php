@@ -9,7 +9,7 @@
       console.log(response);
       $.ajax({
 
-          url: "http://localhost/~Ben/RideR/RideRServer",
+          url: "/RideRServer",
           type: "GET",
           data: response,
           context: document.body,
@@ -18,6 +18,7 @@
   }
   function displayShit(data) {
       console.log(data);
+      console.log("boom");
   }
   function fail() {
     console.log("uh oh");
