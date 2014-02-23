@@ -1,0 +1,10 @@
+body {
+	background-image:url("http://blondeonabudget.ca/wp-content/uploads/2012/02/roadtrip.jpeg");
+	background-size: cover;
+}
+
+button {
+	width:30em;
+	height:4em;
+	margin:1em;
+}

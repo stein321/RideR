@@ -5,7 +5,37 @@
   text-align:center;
 }
 
-#loginForm, #locationForm, #eventsForm, #ridesForm {
+body {
+	font-family: Novecentosanswide-Light;
+	color: white;
+}
+
+#loginForm {
+	height: 314px;
+	width: 500px;
+}
+
+#locationForm {
+	height:166px;
+} 
+
+#locationForm p, #eventsForm p{
+	font-size:3em;
+	margin:.1em;
+}
+
+#eventsForm button {
+	font-family: Novecentosanswide-Light;
+}
+
+#locationForm input {
+	font-size:3em;
+	border-radius:.3em;
+	font-family: Novecentosanswide-Light;
+	text-align:center;
+	padding-bottom:.2em;
+}
+
+#eventsForm, #ridesForm {
 	height: 200px;
-	width: 300px;
 }
