@@ -9,14 +9,14 @@ var listfriends = (function() {
 				'class':'divRow'
 			});
 
-			var nameSpan = $('<span/>')
-			nameSpan.html(rider.name);
+			var nameElem = $('<p/>')
+			nameElem.html(rider.name);
 
-			var mutualFriendSpan = $('<span/>');
-			mutualFriendSpan.html(rider.mutual_friend_count);
+			var mutualFriendElem = $('<p/>');
+			mutualFriendElem.html("Mutual friends: " + rider.mutual_friend_count);
 
-			div.append(nameSpan);
-			div.append(mutualFriendSpan);
+			div.append(nameElem);
+			div.append(mutualFriendElem);
 
 			$("#riderSuggestionContainer").append(div);
 		}
