@@ -6,8 +6,12 @@ var login = (function() {
 		});
 	});
 
-	$(document).on("facebook:connected", function(){
-		alert(FB.getAccessToken());
+	$(document).on("facebook:connected", function() {
+		window.location = "location.html";
+	})
+
+	$(document).on("facebook:not_connected", function() {
+		FB.login();
 	})
 
 }());
