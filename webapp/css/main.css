@@ -14,7 +14,7 @@ body {
 	height:166px;
 } 
 
-#locationForm p, #eventsForm p{
+.pageTitle {
 	font-size:3em;
 	margin:.1em;
 }
@@ -31,6 +31,6 @@ body {
 	padding-bottom:.2em;
 }
 
-#eventsForm, #ridesForm {
+#eventsForm {
 	height: 200px;
 }

@@ -1,0 +1,19 @@
+body {
+	background-image:url("http://blondeonabudget.ca/wp-content/uploads/2012/02/roadtrip.jpeg");
+	background-size: cover;
+}
+
+#ridesform {
+	width:350px;
+	height:200px;
+}
+
+.rider {
+	background-color:#A8444F;
+	border-radius:.4em;
+	margin:1em;
+}
+
+.rider p {
+	margin:0;
+}
