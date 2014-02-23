@@ -5,7 +5,13 @@
   text-align:center;
 }
 
-#loginForm, #locationForm, #eventsForm, #ridesForm {
+#loginForm {
+	height: 500px;
+	width: 314px;
+	background-image:url("/RideR/webapp/images/front_page.jpg");
+}
+
+#locationForm, #eventsForm, #ridesForm {
 	height: 200px;
 	width: 300px;
 }
