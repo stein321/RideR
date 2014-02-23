@@ -1,7 +1,7 @@
 var login = (function() {
 
 	$(document).ready(function() {
-		$("#fb-root").on("facebook:user:connected", function() {
+		$("#facebookLoginButton").click(function() {
 			window.location = "/RideR/webapp/location.html";
 		}
 	});
