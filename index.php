@@ -20,9 +20,7 @@
       console.log("should print");
       console.log(data);
   }
-  function fail() {
-    console.log("uh oh");
-  }
+
 
   window.fbAsyncInit = function() {
   FB.init({
