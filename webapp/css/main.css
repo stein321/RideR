@@ -29,7 +29,8 @@ body {
 	font-size:3em;
 	border-radius:.3em;
 	font-family: Novecentosanswide-Light;
-	text-align:center;
+	text-align:center
+	padding-bottom:2em;
 }
 
 #eventsForm, #ridesForm {
