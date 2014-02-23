@@ -17,6 +17,7 @@
         });
   }
   function displayShit(data) {
+      console.log("should print");
       console.log(data);
   }
   function fail() {
