@@ -4,7 +4,9 @@ body {
 }
 
 button {
-	width:30em;
-	height:4em;
+	width:15em;
+	height:2.1em;
 	margin:1em;
+	font-size:1.7em;
+	font-weight:bold;
 }
