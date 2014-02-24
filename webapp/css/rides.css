@@ -8,6 +8,11 @@ body {
 	height:300px;
 }
 
+.riderName {
+    font-size:1.4em;
+    margin-bottom:0;
+}
+
 .rider {
 	background-color:#A8444F;
 	border-radius:.4em;
