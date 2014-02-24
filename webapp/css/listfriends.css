@@ -28,3 +28,11 @@
 .divRow.selected {
     background-color:#EA5B65;
 }
+
+button {
+    width:15em;
+    height:2.1em;
+    margin:1em;
+    font-size:1.7em;
+    font-weight:bold;
+}
