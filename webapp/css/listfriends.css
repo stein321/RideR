@@ -8,6 +8,11 @@
     border:1px solid black;
 }
 
+.riderName {
+    font-size:1.4em;
+    margin-bottom:0;
+}
+
 #riderSuggestionContainer {
     width:300px;
     height:400px;
