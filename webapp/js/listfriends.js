@@ -22,6 +22,7 @@ var listfriends = (function() {
 
 			$("#riderSuggestions").append(div);
 		}
+		$("#nextButton").show();
 	}
 
 	$.ajax({
