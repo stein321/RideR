@@ -4,7 +4,7 @@ body {
 }
 
 #ridesform {
-	width:350px;
+	width:400px;
 	height:300px;
 }
 
@@ -25,7 +25,6 @@ body {
 
 button {
     width:10em;
-    height:2.1em;
     margin:1em;
     font-size:1.7em;
     font-weight:bold;
