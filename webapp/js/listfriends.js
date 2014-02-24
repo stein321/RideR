@@ -9,8 +9,10 @@ var listfriends = (function() {
 				'class':'divRow'
 			});
 
-			var nameElem = $('<p/>')
-			nameElem.html(rider.name);
+			var nameElem = $('<p/>', {
+				'class':'riderName'
+			})
+			nameElem.html(rider.name.toUpperCase());
 
 			var mutualFriendElem = $('<p/>');
 			mutualFriendElem.html("Mutual friends: " + rider.mutual_friend_count);
